@@ -152,6 +152,16 @@ button:focus,
       -ms-flex: 0 1 200px;
           flex: 0 1 200px;
   max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  list-style-type: none;
+}
+
+.profile1 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 200px;
+          flex: 0 1 200px;
+  max-width: 700px;
   margin: 200px auto;
   text-align: center;
   list-style-type: none;
