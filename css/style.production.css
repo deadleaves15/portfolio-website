@@ -153,6 +153,7 @@ button:focus,
           flex: 0 1 200px;
   max-width: 700px;
   margin: 0 auto;
+<<<<<<< HEAD
   text-align: center;
   list-style-type: none;
 }
@@ -163,9 +164,10 @@ button:focus,
           flex: 0 1 200px;
   max-width: 700px;
   margin: 200px auto;
+=======
+>>>>>>> parent of 63d3094 (I changed these)
   text-align: center;
   list-style-type: none;
-  padding: 200px auto;
 }
 
 .page-header {
