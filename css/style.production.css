@@ -72,7 +72,6 @@ a.button{
 }
 
 .button {
-  @extend %button-shared;
   background-color: $primary-color;
 }
 
