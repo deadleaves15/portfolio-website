@@ -56,11 +56,12 @@ a:active {
   color: #489c79;
 }
 
-%button-shared {
+a.button{
   border: none;
   display: inline-block;
   font-family: inherit;
-  color: white;
+  background-color: black;
+  color: #fff;
   text-decoration: none;
   padding: 10px;
   border-radius: 3px;
@@ -75,10 +76,8 @@ a:active {
   background-color: $primary-color;
 }
 
-button:hover,
-button:focus,
-.button:hover,
-.button:focus {
+a.button:hover,
+  a.button:focus {
   cursor: pointer;
   opacity: 0.8;
 }
