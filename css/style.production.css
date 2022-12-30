@@ -65,19 +65,10 @@ a.button{
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
 }
 
-.button {
-  background-color: green;
-}
-
 a.button:hover,
   a.button:focus {
   cursor: pointer;
   opacity: 0.8;
-}
-
-.button__secondary {
-  background-color: #035517;
-  color: white;
 }
 
 .navigation-list {
