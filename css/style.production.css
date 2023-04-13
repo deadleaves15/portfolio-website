@@ -265,6 +265,59 @@ a.button:focus {
   text-align: right;
 }
 
+form {
+  display: grid;
+  gap: 1rem;
+}
+
+label {
+  display: block;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+}
+input[type='submit'] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 0.7rem 1.5rem;
+  transition: background-color 0.3s;
+}
+
+input[type='submit']:hover {
+  background-color: #555;
+}
+
+.payment-options {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.payment-option {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.payment-option h3 {
+  margin-top: 0;
+}
+
+.payment-option a {
+  color: #333;
+  text-decoration: none;
+}
+
+.payment-option a:hover {
+  text-decoration: underline;
+}
+
 .grid__item {
   background-color: white;
   display: inline-block;

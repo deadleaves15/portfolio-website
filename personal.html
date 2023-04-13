@@ -55,43 +55,45 @@
           >
         </li>
         <li role="presentation">
-          <a href="contact.html" target="_blank" role="menuitem" class="navigation-list__item"
-            >Contact</a
-          >
+          <a href="personal.html" target="_blank" role="menuitem" class="navigation-list__item">Poem Service</a>
         </li>
       </ul>
  </nav>
 </header>
 
 
+<h1>Personalized Poetry Service</h1>
 
-<h1>Contact</h1>
-
-<div>
-    Adam Steininger<br>
-    321 Fake St <br>
-   Longmont, CO<br>
-    UnitedStatesLand<br>
-    <br>
-    Tel <a href="tel:7204876821">7204876821</a><br>
-    E-mail <a href="mailto:deadleaves15@gmail.com">deadleaves15@gmail.com</a><br>
-    <br>
-<a href="mailto:deadleaves15@gmail.com">Contact me</a>    
-</div>
-
-<h1>Form</h1>
-
-<form action="/action_page.php" method="post" id="contact-form">
-  <label class="standard-label" for="contact-email">Email: </label>
-  <input type="email" id="contact-email" required>
-
-  <label class="standard-label" for="contact-telephone">Telephone: </label>
-  <input type="tel" id="contact-telephone" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
-
-  <label class="standard-label">Message: </label>
-  <textarea required maxlength="240"></textarea>
-  <input type="submit" value="Send message">
-</form>
+<main>
+    <section>
+        <h2>Order Your Personalized Poem</h2>
+        <p>Fill out the form below with details about the poem or person you want written about, and I'll create a unique, personalized poem just for you!</p>
+        
+        <form id="poetry-form" action="mailto: deadleaves15@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="poem-details">Details about the poem or person:</label>
+            <textarea id="poem-details" name="poem-details" rows="5" required></textarea>
+            
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+    
+    <section>
+        <h2>Payment Options</h2>
+        <p>Please send your payment through Venmo after submitting the form. The cost for a personalized poem is $20.</p>
+            
+            <div class="payment-option">
+                <h3>Venmo</h3>
+                <p>Send $20 to: @<a href="https://venmo.com/Adam-Steininger-1" target="_blank">Adam-Steininger-1</a></p>
+            </div>
+        </div>
+    </section>
+</main>
 
 <br>
 <footer class="page-footer">
