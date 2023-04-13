@@ -45,36 +45,6 @@ h3 {
   color: black;
 }
 
-a:hover,
-a:focus {
-  text-decoration: none;
-}
-
-a:active {
-  color: #489c79;
-}
-
-a.button {
-  border: none;
-  display: inline-block;
-  font-family: inherit;
-  background-color: black;
-  color: #fff;
-  text-decoration: none;
-  padding: 10px;
-  border-radius: 3px;
-  -webkit-transition: 0.2s opacity;
-  -o-transition: 0.2s opacity;
-  transition: 0.2s opacity;
-  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
-}
-
-a.button:hover,
-a.button:focus {
-  cursor: pointer;
-  opacity: 0.8;
-}
-
 .unselectable {
   -webkit-user-select: none;
   -webkit-touch-callout: none;
