@@ -141,6 +141,13 @@ h3 {
   text-align: left;
 }
 
+.blog-post {
+  margin: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px 200px;
+}
+
 .poem {
   font-family: 'Courier New', monospace;
   white-space: pre-wrap;
