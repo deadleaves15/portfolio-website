@@ -93,58 +93,6 @@ h3 {
   left: 20px;
 }
 
-/* Blog */
-.blog {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  margin: 0;
-  padding: 0;
-}
-
-.blog header {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 20px 0;
-}
-
-.blog header h1 {
-  margin: 0;
-}
-
-.blog nav ul {
-  list-style: none;
-  padding: 0;
-}
-
-.blog nav li {
-  display: inline;
-  margin-right: 20px;
-}
-
-.blog nav a {
-  color: #fff;
-  text-decoration: none;
-}
-
-.blog main {
-  max-width: 800px;
-  margin: 20px auto;
-  padding: 20px;
-  background-color: #fff;
-}
-
-.blog .blog-post {
-  margin-bottom: 20px;
-  border: 1px solid #ccc;
-  padding: 10px;
-}
-
-.blog h2,
-.blog h3 {
-  margin: 0;
-}
-
 /* Article */
 .article body {
   font-family: Arial, sans-serif;
